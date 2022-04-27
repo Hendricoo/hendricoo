@@ -1,4 +1,4 @@
-### Hi i am Hendricoo
+### Hi I am Hendricoo
 
 <div align="center">
   <a href="https://github.com/hendricoo">
