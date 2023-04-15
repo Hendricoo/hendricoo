@@ -52,13 +52,3 @@
 ```
 
     
-
----
-
-![](./4-productive-time.svg)
-
-```
-![](https://raw.githubusercontent.com/Hendricoo/hendricoo/main/profile-summary-card-output/monokai/4-productive-time.svg)
-```
-
-    
