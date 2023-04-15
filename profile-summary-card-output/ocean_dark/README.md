@@ -52,3 +52,13 @@
 ```
 
     
+
+---
+
+![](./4-productive-time.svg)
+
+```
+![](https://raw.githubusercontent.com/Hendricoo/hendricoo/main/profile-summary-card-output/ocean_dark/4-productive-time.svg)
+```
+
+    
