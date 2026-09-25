@@ -1,46 +1,30 @@
-```bash
-matheus@cloud-architect:~$ ./neofetch --profile
+```text
+>_ MATHEUS.H_ TERMINAL // DATA_ENGINEER & CLOUD_BUILDER
 
-███╗   ███╗ █████╗ ████████╗██╗  ██╗███████╗██╗   ██╗███████╗
- ████╗ ████║██╔══██╗╚══██╔══╝██║  ██║██╔════╝██║   ██║██╔════╝
- ██╔████╔██║███████║   ██║   ███████║█████╗  ██║   ██║███████╗
- ██║╚██╔╝██║██╔══██║   ██║   ██╔══██║██╔══╝  ██║   ██║╚════██║
- ██║ ╚═╝ ██║██║  ██║   ██║   ██║  ██║███████╗╚██████╔╝███████║
- ╚═╝     ╚═╝╚═╝  ╚═╝   ╚═╝   ╚═╝  ╚═╝╚══════╝ ╚═════╝ ╚══════╝
+[INIT] Booting Data Engineering Node... OK.
+[INIT] Allocating Serverless Architecture... OK.
+[INIT] Mounting AI & Vision Models... OK.
 
- OS: Ubuntu 24.04 LTS x86_64
- Host: Matheus Hendrico Alves Ribeiro
- Role: Data Engineer & Machine Learning Specialist
- Location: São Paulo, SP
- Education: Computer Engineering | MBA Data Science & AI (FIAP)
- Current: Analista de Dados @ Dadosfera
- Target: Big Tech Cloud Architecture
- Uptime: 24/7 building pipelines and training models
- Shell: zsh 5.8
- Terminal: tmux
-
-matheus@cloud-architect:~$ cat /etc/tech_stack.json
-
+matheus@cloud-node:~$ cat core_config.json
 {
-  "cloud_and_data_engineering": ["GCP", "BigQuery", "Dataflow", "Cloud Run", "Docker", "ETL/ELT"],
-  "data_science_and_ai": ["Python", "Machine Learning", "Scikit-learn", "Pandas", "Computer Vision"],
-  "backend_and_db": ["SQL", "R", "APIs", "Apps Script"]
+  "status": "Building invisible engines & data pipelines",
+  "tech_stack": {
+    "cloud": ["GCP", "BigQuery", "Dataflow", "Cloud Run", "Pub/Sub", "Docker"],
+    "code":  ["Python", "SQL", "React", "Node.js"],
+    "ai":    ["Computer Vision", "MediaPipe", "Scikit-Learn", "Pandas"]
+  }
 }
 
-matheus@cloud-architect:~$ ls -la /opt/projects
+matheus@cloud-node:~$ ./list_deployments.sh
 
-drwxr-xr-x  3 root root 4096 Sep 24 21:00 .
-drwxr-xr-x  8 root root 4096 Sep 24 20:00 ..
--rwxr-xr-x  1 root root  5MB Sep 24 Prioriza.AI       # Middleware SaaS com ML para triagem médica
--rwxr-xr-x  1 root root  2MB Sep 24 Nodely            # SaaS Serverless no GCP para parametrização
--rwxr-xr-x  1 root root  8MB Sep 24 Virtual-Orbit     # Interface Natural (NUI) 3D espacial via MediaPipe
+MODULE                 STATUS       DESCRIPTION
+────────────────────   ──────────   ──────────────────────────────────────────
+Prioriza.AI            [ONLINE]     SaaS middleware c/ ML para triagem médica
+Nodely                 [REBUILD]    Serverless link-tracker architecture no GCP
+Virtual-Orbit          [ONLINE]     NUI 3D Espacial interativo via MediaPipe
 
-matheus@cloud-architect:~$ ping -c 3 connections
+matheus@cloud-node:~$ ping -c 3 external_links
 
-PING connections (127.0.0.1) 56(84) bytes of data.
-64 bytes from [linkedin.com/in/matheus-hendrico-4537301a0](https://linkedin.com/in/matheus-hendrico-4537301a0): icmp_seq=1 time=0.04 ms
-64 bytes from matheus-hendrico.vercel.app: icmp_seq=2 time=0.03 ms
-64 bytes from matheus.hendrico@gmail.com: icmp_seq=3 time=0.05 ms
-
---- connections ping statistics ---
-3 packets transmitted, 3 received, 0% packet loss
+Reply from: matheus-hendrico.vercel.app
+Reply from: [linkedin.com/in/matheus-hendrico-4537301a0](https://linkedin.com/in/matheus-hendrico-4537301a0)
+Reply from: matheus.hendrico@gmail.com
