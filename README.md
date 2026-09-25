@@ -1,20 +1,46 @@
-# Olá, eu sou o Matheus Hendrico 👋
+```bash
+matheus@cloud-architect:~$ ./neofetch --profile
 
-**Data Engineer & Cloud Solutions Builder**
+███╗   ███╗ █████╗ ████████╗██╗  ██╗███████╗██╗   ██╗███████╗
+ ████╗ ████║██╔══██╗╚══██╔══╝██║  ██║██╔════╝██║   ██║██╔════╝
+ ██╔████╔██║███████║   ██║   ███████║█████╗  ██║   ██║███████╗
+ ██║╚██╔╝██║██╔══██║   ██║   ██╔══██║██╔══╝  ██║   ██║╚════██║
+ ██║ ╚═╝ ██║██║  ██║   ██║   ██║  ██║███████╗╚██████╔╝███████║
+ ╚═╝     ╚═╝╚═╝  ╚═╝   ╚═╝   ╚═╝  ╚═╝╚══════╝ ╚═════╝ ╚══════╝
 
-Sou um Engenheiro de Computação apaixonado por desenhar infraestruturas escaláveis e produtos orientados a dados. Atualmente, atuo na engenharia de dados da NWB, construindo pipelines massivos, e estou finalizando meu MBA em Inteligência Artificial e Data Science pela FIAP.
+ OS: Ubuntu 24.04 LTS x86_64
+ Host: Matheus Hendrico Alves Ribeiro
+ Role: Data Engineer & Machine Learning Specialist
+ Location: São Paulo, SP
+ Education: Computer Engineering | MBA Data Science & AI (FIAP)
+ Current: Analista de Dados @ Dadosfera
+ Target: Big Tech Cloud Architecture
+ Uptime: 24/7 building pipelines and training models
+ Shell: zsh 5.8
+ Terminal: tmux
 
-Meu foco é a intersecção entre **Cloud Architecture (GCP)** e **Inteligência Artificial aplicada**. Em vez de apenas montar dashboards, eu construo os motores invisíveis que fazem eles funcionarem.
+matheus@cloud-architect:~$ cat /etc/tech_stack.json
 
-### 🛠️ Minha Caixa de Ferramentas (Tech Stack)
-*   **Cloud & Infra:** Google Cloud Platform (BigQuery, Dataflow, Cloud Run, Pub/Sub), Serverless Architecture, Docker.
-*   **Data & AI:** Python, SQL avançado, Visão Computacional (MediaPipe, YOLO), LLMs, ETL/ELT.
-*   **Engenharia de Software:** React, Node.js, Integração de APIs massivas (Meta, Google, Twitch).
+{
+  "cloud_and_data_engineering": ["GCP", "BigQuery", "Dataflow", "Cloud Run", "Docker", "ETL/ELT"],
+  "data_science_and_ai": ["Python", "Machine Learning", "Scikit-learn", "Pandas", "Computer Vision"],
+  "backend_and_db": ["SQL", "R", "APIs", "Apps Script"]
+}
 
-### 🚀 O que eu ando construindo
-*   **[Prioriza.AI]**: Middleware de saúde que utiliza IA e visão computacional para triagem de exames críticos.
-*   **[Nodely]**: Produto SaaS serverless construído no GCP para parametrização e encurtamento inteligente de links.
-*   **[Virtual Orbit]**: Interface Natural de Usuário (NUI) que permite a navegação espacial em 3D apenas com gestos das mãos, via MediaPipe.
+matheus@cloud-architect:~$ ls -la /opt/projects
 
----
-📫 **Vamos conversar sobre Cloud, IA ou novos desafios:** [Seu LinkedIn] | [Seu Email] | [Seu Portfólio]
+drwxr-xr-x  3 root root 4096 Sep 24 21:00 .
+drwxr-xr-x  8 root root 4096 Sep 24 20:00 ..
+-rwxr-xr-x  1 root root  5MB Sep 24 Prioriza.AI       # Middleware SaaS com ML para triagem médica
+-rwxr-xr-x  1 root root  2MB Sep 24 Nodely            # SaaS Serverless no GCP para parametrização
+-rwxr-xr-x  1 root root  8MB Sep 24 Virtual-Orbit     # Interface Natural (NUI) 3D espacial via MediaPipe
+
+matheus@cloud-architect:~$ ping -c 3 connections
+
+PING connections (127.0.0.1) 56(84) bytes of data.
+64 bytes from [linkedin.com/in/matheus-hendrico-4537301a0](https://linkedin.com/in/matheus-hendrico-4537301a0): icmp_seq=1 time=0.04 ms
+64 bytes from matheus-hendrico.vercel.app: icmp_seq=2 time=0.03 ms
+64 bytes from matheus.hendrico@gmail.com: icmp_seq=3 time=0.05 ms
+
+--- connections ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss
